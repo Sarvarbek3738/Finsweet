@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sen", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav2 a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  /* display: flex;
+    justify-content: center; */
+  align-items: center;
+  background-color: #232536;
+}
+
+nav .navv {
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content:space-between; */
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.nav2 {
+  display: flex;
+  justify-content: first baseline;
+  gap: 30px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+nav .container button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border: none;
+  background-color: white;
+}
+
+.hero {
+  background-image: url(../img/img1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 90px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.hero1 {
+  padding-bottom: 150px;
+
+}
+
+header .container .hero1 {
+  width: 1200px;
+  margin: 0 auto;
+  /* padding-bottom: 60px; */
+  /* padding-right: 20px; */
+}
+
+header .container .hero1 h1 {
+  color: white;
+  font-size: 54px;
+  width: 830px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+header .container .hero1 p {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 600px;
+
+
+}
+
+header .container .hero1 button {
+  width: 180px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  background-color: #FFD050;
+
+}
+
+header .container .hero1 .pppp {
+  padding-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 580px;
+  color: white;
+  padding-top: 30px;
+  line-height: 28px;
+}
+
+.section1 .container .text1 {
+  border: 1px solid #6d6e760c;
+  width: 700px;
+  padding: 15px;
+}
+
+.section1 .container .text1 p {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #6D6E76;
+}
+
+.section1 .container .text1 button {
+  width: 180px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  background-color: #FFD050;
+  color: #232536;
+  font-weight: 700;
+}
+
+.section1 .container .text2 {
+  border: 0px solid white;
+  width: 517px;
+  padding: 15px;
+  height: 170px;
+
+
+}
+
+.section1 .container .text2 .slova {
+  font-size: 24px;
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.section1 .container .text2 a {
+  text-decoration: none;
+}
+
+.section1 .container .text3 {
+  border: 0px solid white;
+  width: 517px;
+  padding: 15px;
+  background-color: #FBF6EA;
+  height: 170px;
+
+
+}
+
+.section1 .container .text3 .slova {
+  font-size: 24px;
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.section1 .container .text3 a {
+  text-decoration: none;
+}
+
+.section1 .container .text4 {
+  border: 0px solid white;
+  width: 517px;
+  padding: 15px;
+  height: 170px;
+
+}
+
+.section1 .container .text4 .slova {
+  font-size: 24px;
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.section1 .container .text4 a {
+  text-decoration: none;
+}
+
+.section1 .container .text5 {
+  border: 0px solid white;
+  width: 517px;
+  padding: 15px;
+  height: 170px;
+
+}
+
+.section1 .container .text5 .slova {
+  font-size: 24px;
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.section1 .container .text5 a {
+  text-decoration: none;
+}
+
+.section1 .container {
+  display: flex;
+  padding-top: 70px;
+}
+
+.star {
+  gap: 30px;
+  padding-right: 10px;
+}
+
+.star1 {
+  padding-bottom: 30px;
+}
+
+.section2 .container h1 {
+  display: flex;
+  /* justify-content: center; */
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.section2 .container .text6 {
+  padding: 15px;
+  border: 1px solid #6d6e7616;
+  width: 240px;
+}
+
+.section2 .container .textlar img {
+  background-color: #FBF6EA;
+  border-radius: 5px;
+}
+
+.section2 .container .text7 {
+  padding: 10px;
+  width: 240px;
+  background-color: #FFD050;
+}
+
+.section2 .container .text8 {
+  padding: 10px;
+  border: 1px solid #6d6e7616;
+  width: 240px;
+}
+
+.section2 .container .text9 {
+  padding: 10px;
+  border: 1px solid #6d6e7616;
+  width: 240px;
+}
+
+.textlar {
+  display: flex;
+  gap: 80px;
+}
+
+.section3 {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  /* padding-left: 380px; */
+  position: relative;
+}
+
+.text10 {
+  background-image: url(../img/close-up-photography-of-man-wearing-sunglasses-1212984.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  height: 705px;
+  position: relative;
+}
+
+.text11 {
+  border: none;
+  padding: 40px;
+  width: 700px;
+  z-index: 99;
+  background-color: #fff;
+  margin-left: 1000px;
+  height: 580px;
+  position: absolute;
+  right: -100px;
+  bottom: 0px;
+
+}
+
+.text11 h4 {
+  padding-top: 80px;
+  padding-bottom: 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text11 h1 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 16px;
+  color: rgba(35, 37, 54, 1);
+}
+
+.text11 p {
+  padding-bottom: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(109, 110, 118, 1);
+  line-height: 28px;
+}
+
+.text11 button {
+  padding: 16px 48px;
+  background-color: rgba(255, 208, 80, 1);
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #232536;
+  padding: 20px 20px 0px;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.footer-hero {
+  display: flex;
+  align-items: start;
+  gap: 100px;
+  padding: 60px;
+  background-color: #2e3040;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+}
+
+form button {
+  border: none;
+}
+
+.footer-hero h1 {
+  color: #fff;
+  width: 600px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.socials i {
+  color: rgba(109, 110, 118, 1);
+}
+
+.footer-hero input {
+  padding: 20px 110px 20px 20px;
+  background-color: #2e3040;
+  border: #6D6E76 solid 1px;
+}
+
+.footer-hero input::placeholder {
+  color: #6D6E76;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.footer-hero button {
+  padding: 16px 48px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  background-color: #FFD050;
+  margin-left: 30px;
+}
+
+.footer-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: 'Inter';
+}
+
+.adress {
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.adress p {
+  margin-bottom: 10px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
