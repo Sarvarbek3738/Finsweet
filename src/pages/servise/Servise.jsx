@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Servise.css"
+import { Link } from 'react-router-dom'
 
 function Servise() {
   return (
@@ -42,6 +43,82 @@ function Servise() {
           </div>
         </div>
       </div>
+      <section className='section4'>
+        <div className="container">
+          <h1>List of Authors</h1>
+          <div className="section4Boxs">
+
+            <Link to="/posts">
+              <div className="section4Box">
+              <img className='img' src="/public/img/author1.png" alt="" />
+                <h2>Floyd Miles</h2>
+                <h4>Content Writer @Company</h4>
+                <div class="socials">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/posts">
+              <div className="section4Box">
+                <img className='img' src="/public/img/author1.png" alt="" />
+                <h2>Dianne Russell</h2>
+                <h4>Content Writer @Company</h4>
+                <div class="socials">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/posts">
+              <div className="section4Box">
+              <img className='img' src="/public/img/author1.png" alt="" />
+                <h2>Jenny Wilson</h2>
+                <h4>Content Writer @Company</h4>
+                <div class="socials">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/posts">
+              <div className="section4Box">
+              <img className='img' src="/public/img/author1.png" alt="" />
+                <h2>Leslie Alexander</h2>
+                <h4>Content Writer @Company</h4>
+                <div class="socials">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </Link>
+
+
+
+
+          </div>
+        </div>
+      </section>
+      <section className='section6'>
+        <div className="container">
+          <h1>Join our team to be a part <br /> of our story</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit, sed do eiusmod tempor incididunt.</p>
+          <button>
+            Join Now
+          </button>
+        </div>
+      </section>
     </>
   )
 }

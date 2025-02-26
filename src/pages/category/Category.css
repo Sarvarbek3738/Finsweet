@@ -1,0 +1,131 @@
+.categoryHero {
+    background-color: #F4F0F8;
+    text-align: center;
+}
+
+.categoryHero h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: rgba(35, 37, 54, 1);
+    padding-bottom: 16px;
+    padding-top: 80px;
+}
+
+.categoryHero p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(109, 110, 118, 1);
+    line-height: 28px;
+    padding-bottom: 32px;
+}
+
+.categoryHero h4 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    color: rgba(35, 37, 54, 1);
+
+}
+
+
+.categorybox1 img {
+    width: 280px;
+    height: 270px;
+}
+
+.categoryBox {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin: 30px 0px;
+    /* padding-top: 100px; */
+}
+.categoryLeft{
+    padding-top: 100px;
+}
+
+.categorybox2 h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(89, 46, 169, 1);
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.categorybox2 h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(35, 37, 54, 1);
+    padding-bottom: 16px;
+}
+
+.categorybox2 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(109, 110, 118, 1);
+    line-height: 28px;
+}
+
+.categorySection .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoryRight {
+    padding-top: 132px;
+}
+
+.categoryCard {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 296px;
+    padding: 24px;
+    margin: 24px 0px;
+    border: 1px solid rgba(193, 193, 195, 1);
+    cursor: pointer;
+
+}
+.categoryCard2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(35, 37, 54, 1);
+}
+.categoryCard2 div{
+    padding: 8px 38px;
+    border: 1px solid rgba(109, 110, 118, 1);
+    border-radius: 28px;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+
+
+.categoryCard:hover {
+    background-color: #FFD050;
+    border: 1px solid #FFD050;
+}
+.categoryCard2 div:hover {
+    background-color: #FFD050;
+    border: 1px solid #FFD050;
+}
+.categoryCards2 h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(35, 37, 54, 1);
+    padding-top: 48px;
+}
+
+.categoryCard h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(35, 37, 54, 1);
+}
+
+.categoryRight h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}

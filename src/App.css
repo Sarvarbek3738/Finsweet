@@ -49,8 +49,6 @@ nav .navv {
   align-items: center;
 }
 
-
-
 nav .container button {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -62,7 +60,7 @@ nav .container button {
 
 .hero {
   background-image: url(../img/img1.png);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   padding: 90px;
@@ -129,6 +127,7 @@ header .container .hero1 .pppp {
   padding: 15px;
 }
 
+
 .section1 .container .text1 p {
   font-size: 14px;
   padding-top: 20px;
@@ -167,14 +166,15 @@ header .container .hero1 .pppp {
   text-decoration: none;
 }
 
-.section1 .container .text3 {
+.text3 {
   border: 0px solid white;
   width: 517px;
   padding: 15px;
-  background-color: #FBF6EA;
   height: 170px;
-
-
+}
+.text2:hover{
+  background-color: #FBF6EA;
+  cursor: pointer;
 }
 
 .section1 .container .text3 .slova {
@@ -226,6 +226,8 @@ header .container .hero1 .pppp {
 .section1 .container {
   display: flex;
   padding-top: 70px;
+  /* justify-content: space-between; */
+  gap: 32px;
 }
 
 .star {
@@ -245,9 +247,13 @@ header .container .hero1 .pppp {
 }
 
 .section2 .container .text6 {
-  padding: 15px;
+  padding: 10px;
   border: 1px solid #6d6e7616;
   width: 240px;
+}
+.text6:hover{
+    background-color: #FFD050;
+    border: 1px solid #FFD050;
 }
 
 .section2 .container .textlar img {
@@ -257,8 +263,8 @@ header .container .hero1 .pppp {
 
 .section2 .container .text7 {
   padding: 10px;
+  border: 1px solid #6d6e7616;
   width: 240px;
-  background-color: #FFD050;
 }
 
 .section2 .container .text8 {
@@ -275,7 +281,8 @@ header .container .hero1 .pppp {
 
 .textlar {
   display: flex;
-  gap: 80px;
+  justify-content: space-between;
+  /* gap: 80px; */
 }
 
 .section3 {

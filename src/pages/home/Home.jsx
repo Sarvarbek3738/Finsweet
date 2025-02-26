@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Home.css"
-function Home() {
+import { Link } from 'react-router-dom'
+function Home({ categorys }) {
+
   return (
     <>
       <div className="hero">
@@ -24,7 +26,7 @@ function Home() {
             </button>
           </div>
           <div>
-            
+
           </div>
         </div>
       </div>
@@ -70,7 +72,7 @@ function Home() {
                     8 Figma design systems that <br /> you can download for free <br /> today.
                   </p>
                 </div>
-                <div className="text3">
+                <div className="text2">
                   <p>
                     By <a href="">John Deo </a> l Aug 23, 2021
                   </p>
@@ -78,7 +80,7 @@ function Home() {
                     8 Figma design systems that <br /> you can download for free <br /> today.
                   </p>
                 </div>
-                <div className="text4">
+                <div className="text2">
                   <p>
                     By <a href="">John Deo </a> l Aug 23, 2021
                   </p>
@@ -86,7 +88,7 @@ function Home() {
                     8 Figma design systems that <br /> you can download for free <br /> today.
                   </p>
                 </div>
-                <div className="text5">
+                <div className="text2">
                   <p>
                     By <a href="">John Deo </a> l Aug 23, 2021
                   </p>
@@ -105,44 +107,23 @@ function Home() {
                 Choose A Catagory
               </h1>
             </div>
+
             <div className="textlar">
-              <div className="text6">
-                <img src="./img/icon1.svg" alt="" />
-                <h1>
-                  Business
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                </p>
-              </div>
-              <div className="text7">
-                <img src="./img/icon2.svg"
-                  alt="" />
-                <h1>
-                  Startup
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                </p>
-              </div>
-              <div className="text8">
-                <img src="./img/icon3.svg" alt="" />
-                <h1>
-                  Economy
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                </p>
-              </div>
-              <div className="text9">
-                <img src="./img/icon4.svg" alt="" />
-                <h1>
-                  Technology
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                </p>
-              </div>
+              {
+                categorys.map((item) => {
+                  return <Link to={`/category/${item.id}`}>
+                    <div className="text6">
+                      <img src={item.img} alt="" />
+                      <h1>
+                        {item.titel}
+                      </h1>
+                      <p>
+                        {item.decr}
+                      </p>
+                    </div>
+                  </Link>
+                })
+              }
             </div>
           </div>
         </section>
@@ -166,6 +147,101 @@ function Home() {
                 </button>
               </div>
             </div>
+          </div>
+        </section>
+        <section className='section4'>
+          <div className="container">
+            <h1>List of Authors</h1>
+            <div className="section4Boxs">
+              <Link to="/posts">
+                <div className="section4Box">
+                  <img className='img' src="/public/img/author1.png" alt="" />
+                  <h2>Floyd Miles</h2>
+                  <h4>Content Writer @Company</h4>
+                  <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </Link>
+              <Link to="/posts">
+                <div className="section4Box">
+                  <img className='img' src="/public/img/author1.png" alt="" />
+                  <h2>Floyd Miles</h2>
+                  <h4>Content Writer @Company</h4>
+                  <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </Link>
+              <Link to="/posts">
+                <div className="section4Box">
+                  <img className='img' src="/public/img/author1.png" alt="" />
+                  <h2>Floyd Miles</h2>
+                  <h4>Content Writer @Company</h4>
+                  <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </Link>
+              <Link to="/posts">
+                <div className="section4Box">
+                  <img className='img' src="/public/img/author1.png" alt="" />
+                  <h2>Floyd Miles</h2>
+                  <h4>Content Writer @Company</h4>
+                  <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </section>
+        <section className='section5'>
+          <div className="container">
+            <div className="section5Box1">
+              <h4>TESTIMONIALS</h4>
+              <h1>What people say <br /> about our blog</h1>
+              <h5>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor.</h5>
+            </div>
+            <div className="section5Box2">
+              <p>Lorem ipsum dolor sit amet,  <br /> consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et <br /> dolore magna aliqua.</p>
+              <div className="jony">
+                <div>
+                  <h3>
+                    Jonathan Vallem
+                  </h3>
+                  <h5>
+                    New york, USA
+                  </h5>
+                </div>
+                <div className='stirelka' >
+                  <div><h5>{"←"}</h5></div>
+                  <div><h5>{"→"}</h5></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <section className='section6'>
+          <div className="container">
+            <h1>Join our team to be a part <br /> of our story</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit, sed do eiusmod tempor incididunt.</p>
+            <button>
+              Join Now
+            </button>
           </div>
         </section>
       </main>
